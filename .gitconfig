@@ -1,0 +1,10 @@
+[user]
+	name = Fengtan
+	email = Fengtan@847318.no-reply.drupal.org
+[color "diff"]
+	whitespace = red reverse
+[color]
+	diff = auto
+	ui = auto
+[push]
+	default = matching

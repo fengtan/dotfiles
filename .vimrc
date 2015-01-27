@@ -31,6 +31,7 @@ set ts=2
 set sw=2
 "association extensions/syntaxe
 au BufNewFile,BufRead *.install setlocal ft=php
+au BufNewFile,BufRead *.module setlocal ft=php
 "raccourcis pour folding PHP
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>

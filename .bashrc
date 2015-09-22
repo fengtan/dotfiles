@@ -32,6 +32,7 @@ alias mysql='mysql -A --pager=less'
 alias sockets-open='sudo lsof -i -P'
 alias sockets-listening='sudo lsof -i | grep LISTEN'
 alias http-headers='curl -I -L'
+alias battery-status='acpi -V'
 
 ##################################################
 # Typo management

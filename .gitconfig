@@ -12,11 +12,10 @@
   grd = log --graph --format=detail # graph detail
   root = rev-parse --show-toplevel
 [color]
-	diff = auto
-	ui = auto
+  diff = auto
+  ui = auto
 [color "diff"]
-	whitespace = red reverse
-
+  whitespace = red reverse
 [diff]
   mnemonicPrefix = true
 [pretty]
@@ -24,7 +23,7 @@
   compact = "%C(auto)%h %s %C(green)%ar%n %C(auto)%d%n"
   detail = "%C(auto)%h %s%n  %C(yellow)by %C(blue)%an %C(magenta)<%ae> [%G?] %C(green)%ar%n %C(auto)%d%n"
 [push]
-	default = matching
+  default = matching
 [user]
-	name = Fengtan
-	email = Fengtan@847318.no-reply.drupal.org
+  name = Fengtan
+  email = Fengtan@847318.no-reply.drupal.org

@@ -48,3 +48,4 @@ alias wdp=pwd
 alias wpd=pwd
 alias owd=pwd
 alias pzd=pwd
+alias gerp=grep

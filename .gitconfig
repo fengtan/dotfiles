@@ -11,6 +11,8 @@
   grl = log --graph --format=line # graph line
   grd = log --graph --format=detail # graph detail
   root = rev-parse --show-toplevel
+  st = status
+  co = checkout
 [color]
   diff = auto
   ui = auto

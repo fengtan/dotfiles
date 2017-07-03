@@ -29,3 +29,5 @@
 [user]
   name = Fengtan
   email = Fengtan@847318.no-reply.drupal.org
+[branch "master"]
+  mergeoptions = --no-ff

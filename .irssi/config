@@ -90,11 +90,23 @@ chatnets = {
   };
   SILC = { type = "SILC"; };
   Ubuntu = { type = "IRC"; };
+  "irc.freenode.net" = { type = "IRC"; };
 };
 
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "silc"; chatnet = "silc"; autojoin = "No"; }
+  { name = "silc"; chatnet = "silc"; autojoin = "No"; },
+  {
+    name = "#mcgill_web";
+    chatnet = "irc.freenode.net";
+    autojoin = "yes";
+  },
+  {
+    name = "#mcgill_web_external";
+    chatnet = "irc.freenode.net";
+    autojoin = "yes";
+  },
+  { name = "#drupal"; chatnet = "irc.freenode.net"; autojoin = "yes"; }
 );
 
 aliases = {
@@ -259,10 +271,15 @@ statusbar = {
   };
 };
 settings = {
-  core = {
+  core = { 
     real_name = "fengtan";
     user_name = "fengtan";
     nick = "fengtan";
   };
   "fe-text" = { actlist_sort = "refnum"; };
+  "fe-common/core" = {
+    autolog = "yes";
+    autolog_path = "~/irclogs/$tag/$0/%Y/%m-%d.log";
+  };
 };
+logs = { };

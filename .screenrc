@@ -1,0 +1,2 @@
+# Fix for https://unix.stackexchange.com/questions/213726/ssh-from-screen-leads-to-unknown-terminal-error
+term screen

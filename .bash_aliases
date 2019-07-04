@@ -9,7 +9,7 @@ alias egrep="egrep --color -R -n --exclude='*svn*'"
 alias grep-reverse="egrep -v"
 alias grep-even="awk 'NR % 2 == 0'"
 alias grep-odd="awk 'NR % 2 == 1'"
-alias diff="diff -x '*svn*'"
+alias diff="diff -x '*svn*' -x '*.pyc' --color=auto"
 alias join-comma='tr "\\n" ","'
 alias lock="gnome-screensaver-command --lock"
 alias mysql='mysql -A --pager=less'
